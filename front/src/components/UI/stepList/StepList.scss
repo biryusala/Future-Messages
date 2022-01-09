@@ -1,0 +1,31 @@
+.steps {
+  display: flex;
+  flex-basis: auto;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #9b9b9b;
+  max-width: 350px;
+  padding: 15px;
+
+  &--succeeded {
+    background-color: rgba(6, 248, 104, 0.15);
+  }
+
+  &-mark {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &-description {
+    font-size: 16px;
+  }
+}
